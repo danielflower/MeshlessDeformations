@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\matrix">
+      <UniqueIdentifier>{6d8504c4-d602-4f8f-9191-bc5e3f102d49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model">
+      <UniqueIdentifier>{c1c22365-c6cc-485c-97bc-cbb60780a2b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\numerics">
+      <UniqueIdentifier>{5c4d4462-4e19-4c57-97a7-10735ee10c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\matrix">
+      <UniqueIdentifier>{1d3cc234-a580-4bc9-b968-ca2b0af2623d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model">
+      <UniqueIdentifier>{c965ffb6-05dd-4fa1-bb3e-96f2c47e9110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\numerics">
+      <UniqueIdentifier>{e78bb968-ea84-4c89-97a1-c3df1762417a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraMayaSceneNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\BANDMAT.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\CHOLESKY.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\EVALUE.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\FFT.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\HHOLDER.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\JACOBI.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\MYEXCEPT.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\NEWFFT.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\NEWMAT1.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\NEWMAT2.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\NEWMAT3.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\NEWMAT4.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\NEWMAT5.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\NEWMAT6.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\NEWMAT7.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\NEWMAT8.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\NEWMAT9.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\NEWMATEX.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\NEWMATNL.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\NEWMATRM.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\NM_MISC.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\SOLUTION.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\SORT.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\SUBMAT.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\SVD.CPP">
+      <Filter>Source Files\matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Boundary.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="DeformableObject.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="DeformableObjectMesh.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelObject.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="linpack\blas1.cpp">
+      <Filter>Source Files\numerics</Filter>
+    </ClCompile>
+    <ClCompile Include="linpack\linpack.cpp">
+      <Filter>Source Files\numerics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Boundary.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraMayaSceneNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\CONTROLW.H">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\INCLUDE.H">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\MYEXCEPT.H">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\NEWMAT.H">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\NEWMATAP.H">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\NEWMATIO.H">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\NEWMATNL.H">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\NEWMATRC.H">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\NEWMATRM.H">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\PRECISIO.H">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\SOLUTION.H">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\TMT.H">
+      <Filter>Header Files\matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="DeformableObject.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="DeformableObjectMesh.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelObject.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="linpack\blas1.h">
+      <Filter>Header Files\numerics</Filter>
+    </ClInclude>
+    <ClInclude Include="linpack\linpack.h">
+      <Filter>Header Files\numerics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\boldie.dcmesh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\duck.dcmesh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\sneakers.dcmesh">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="boxSides.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="earth.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="earth.x">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

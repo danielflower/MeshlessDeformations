@@ -1,0 +1,5 @@
+This is an abridged copy of Irrlicht 0.14
+
+Several folders have been removed to make the file size smaller.
+
+To get a proper (and newer) version of Irrlicht, visit http://irrlicht.sourceforge.net/

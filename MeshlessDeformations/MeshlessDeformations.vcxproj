@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CAB9DA32-60F5-482D-8BAC-5F5A2B3ED27A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MeshlessDeformations</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)\irrlicht-0.14.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\irrlicht-0.14.0\lib\Win32-VisualStudio;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)\irrlicht-0.14.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\irrlicht-0.14.0\lib\Win32-VisualStudio;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Boundary.cpp" />
+    <ClCompile Include="CCameraMayaSceneNode.cpp" />
+    <ClCompile Include="DeformableObject.cpp" />
+    <ClCompile Include="DeformableObjectMesh.cpp" />
+    <ClCompile Include="EventHandler.cpp" />
+    <ClCompile Include="Globals.cpp" />
+    <ClCompile Include="GUIManager.cpp" />
+    <ClCompile Include="linpack\blas1.cpp" />
+    <ClCompile Include="linpack\linpack.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="matrix\BANDMAT.CPP" />
+    <ClCompile Include="matrix\CHOLESKY.CPP" />
+    <ClCompile Include="matrix\EVALUE.CPP" />
+    <ClCompile Include="matrix\FFT.CPP" />
+    <ClCompile Include="matrix\HHOLDER.CPP" />
+    <ClCompile Include="matrix\JACOBI.CPP" />
+    <ClCompile Include="matrix\MYEXCEPT.CPP" />
+    <ClCompile Include="matrix\NEWFFT.CPP" />
+    <ClCompile Include="matrix\NEWMAT1.CPP" />
+    <ClCompile Include="matrix\NEWMAT2.CPP" />
+    <ClCompile Include="matrix\NEWMAT3.CPP" />
+    <ClCompile Include="matrix\NEWMAT4.CPP" />
+    <ClCompile Include="matrix\NEWMAT5.CPP" />
+    <ClCompile Include="matrix\NEWMAT6.CPP" />
+    <ClCompile Include="matrix\NEWMAT7.CPP" />
+    <ClCompile Include="matrix\NEWMAT8.CPP" />
+    <ClCompile Include="matrix\NEWMAT9.CPP" />
+    <ClCompile Include="matrix\NEWMATEX.CPP" />
+    <ClCompile Include="matrix\NEWMATNL.CPP" />
+    <ClCompile Include="matrix\NEWMATRM.CPP" />
+    <ClCompile Include="matrix\NM_MISC.CPP" />
+    <ClCompile Include="matrix\SOLUTION.CPP" />
+    <ClCompile Include="matrix\SORT.CPP" />
+    <ClCompile Include="matrix\SUBMAT.CPP" />
+    <ClCompile Include="matrix\SVD.CPP" />
+    <ClCompile Include="ModelObject.cpp" />
+    <ClCompile Include="ObjectFactory.cpp" />
+    <ClCompile Include="Particle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Boundary.h" />
+    <ClInclude Include="CCameraMayaSceneNode.h" />
+    <ClInclude Include="DeformableObject.h" />
+    <ClInclude Include="DeformableObjectMesh.h" />
+    <ClInclude Include="EventHandler.h" />
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="GUIManager.h" />
+    <ClInclude Include="linpack\blas1.h" />
+    <ClInclude Include="linpack\linpack.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="matrix\CONTROLW.H" />
+    <ClInclude Include="matrix\INCLUDE.H" />
+    <ClInclude Include="matrix\MYEXCEPT.H" />
+    <ClInclude Include="matrix\NEWMAT.H" />
+    <ClInclude Include="matrix\NEWMATAP.H" />
+    <ClInclude Include="matrix\NEWMATIO.H" />
+    <ClInclude Include="matrix\NEWMATNL.H" />
+    <ClInclude Include="matrix\NEWMATRC.H" />
+    <ClInclude Include="matrix\NEWMATRM.H" />
+    <ClInclude Include="matrix\PRECISIO.H" />
+    <ClInclude Include="matrix\SOLUTION.H" />
+    <ClInclude Include="matrix\TMT.H" />
+    <ClInclude Include="ModelObject.h" />
+    <ClInclude Include="ObjectFactory.h" />
+    <ClInclude Include="Particle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="earth.x">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </Image>
+    <None Include="resources\boldie.dcmesh">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="resources\duck.dcmesh">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="resources\sneakers.dcmesh">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="boxSides.jpg">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+    <Image Include="earth.bmp">
+      <DeploymentContent>true</DeploymentContent>
+    </Image>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

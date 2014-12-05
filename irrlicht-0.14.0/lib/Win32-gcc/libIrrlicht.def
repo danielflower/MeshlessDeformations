@@ -1,0 +1,4 @@
+; dlltool --base-file C:\DOKUME~1\Niko\LOKALE~1\Temp/cca00160.base --output-exp Irrlicht.exp --dllname Irrlicht.dll --output-def libIrrlicht.def --exclude-symbol=DllMainCRTStartup@12 --def C:\DOKUME~1\Niko\LOKALE~1\Temp/cca00160.def --output-lib libIrrlicht.a
+EXPORTS
+	_ZN3irr14createDeviceExERKNS_27SIrrlichtCreationParametersE @ 1 ; irr::createDeviceEx(irr::SIrrlichtCreationParameters const&)
+	_ZN3irr12createDeviceENS_5video13E_DRIVER_TYPEERKNS_4core11dimension2dIiEEjbbbPNS_14IEventReceiverEPKc @ 2 ; irr::createDevice(irr::video::E_DRIVER_TYPE, irr::core::dimension2d<int> const&, unsigned, bool, bool, bool, irr::IEventReceiver*, char const*)
